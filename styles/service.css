@@ -1,0 +1,12 @@
+.service {
+    display: flex;
+    flex: 1 0 30%;
+    margin: 16px 10px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
