@@ -1,0 +1,107 @@
+.about-us {
+    background: #F2F2F2;
+    border-bottom: 6px solid #FFFFFF;
+}
+
+.about-us__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #666D89;
+    padding-top: 59px;
+    padding-bottom: 14px;
+}
+
+.about-us__discription {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767E9E;
+    padding-bottom: 57px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee {
+    flex: 1 0 25%;
+}
+
+.employee__photo {
+    height: auto;
+    max-width: 1020px;
+    flex-wrap: wrap;
+}
+
+
+.employee__photo:nth-child() {
+    margin: 0 10px;
+}
+
+.employee__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666D89;
+    padding-top: 17px;
+    padding-bottom: 7px;
+}
+
+.employee__discription {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767E9E;
+    padding-bottom: 7px;
+    letter-spacing: 0.7px;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+.social__item {
+    display: inline-block;
+    margin-right: 8px;
+    padding-bottom: 70px;
+}
+
+.social__link {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.social__link_facebook {
+    background: url('../img/about-us-img/ico-facebook.png') no-repeat;
+}
+
+.social__link_google {
+    background: url('../img/about-us-img/ico-google-plus.png') no-repeat;
+}
+
+.social__link_twitter {
+    background: url('../img/about-us-img/ico-twitter.png') no-repeat;
+}
+
+.social__link_instagram {
+    background: url('../img/about-us-img/ico-linkedin.png') no-repeat;
+}

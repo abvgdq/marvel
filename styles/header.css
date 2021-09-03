@@ -29,15 +29,15 @@ li {
     justify-content: space-between;
     align-items: center;
     padding-left: 40px;
-    padding-top: 29px;
-    padding-bottom: 41px;
-    padding-right: 40px;
+    padding-top: 31px;
+    padding-bottom: 25px;
+    padding-right: 36px;
 }
 
 .logo {
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 30px;
     color: #F2F2F2;
     text-transform: uppercase;
@@ -50,6 +50,7 @@ li {
 
 .list {
     display: flex;
+    margin-top: 8px;
 }
 
 .list__item {
@@ -62,6 +63,14 @@ li {
     cursor: pointer;
     margin-right: 30px;
     position: relative;
+}
+
+.active {
+    color: #F06C64;
+}
+
+.list__item:hover {
+    color: #F06C64;
 }
 
 .list__item:last-child {

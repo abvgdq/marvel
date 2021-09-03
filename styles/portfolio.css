@@ -1,0 +1,81 @@
+.portfolio {
+    background: #2D303A;
+    border: 6px solid #323746;
+}
+
+.portfolio__wrapper {
+    padding: 0 30px;
+}
+
+.portfolio__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #666D89;
+    padding-top: 59px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+}
+
+.portfolio__discription {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767E9E;
+    padding-left: 10px;
+    padding-bottom: 13px;
+}
+
+.portfolio__buttons {
+    padding-bottom: 8px;
+    padding-left: 9px;
+}
+
+.portfolio__btn {
+    border: 1px solid #767E9E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #767E9E;
+    outline: none;
+    background: transparent;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+.selected {
+    border-color: #F2F2F2;
+    color: #F2F2F2;
+}
+
+.portfolio__btn:hover {
+    border-color: #F2F2F2;
+    color: #F2F2F2;
+}
+
+.portfolio__btn:not(:first-child){
+    margin-left: 10px;
+}
+
+.portfolio__pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 46px;
+}
+
+.portfolio__picture {
+    margin: 10px;
+    flex: 1 0 20%;
+    height: auto;
+    cursor: pointer;
+    min-width: 100px;
+}
