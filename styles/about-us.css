@@ -10,8 +10,9 @@
     font-size: 30px;
     line-height: 36px;
     color: #666D89;
-    padding-top: 59px;
-    padding-bottom: 14px;
+    padding-top: 61px;
+    padding-bottom: 7px;
+    padding-left: 41px;
 }
 
 .about-us__discription {
@@ -21,12 +22,14 @@
     font-size: 18px;
     line-height: 30px;
     color: #767E9E;
-    padding-bottom: 57px;
+    padding-bottom: 44px;
+    padding-top: 10px;
+    padding-left: 40px;
+    letter-spacing: 0.5px;
 }
 
 .employees {
     display: flex;
-    justify-content: space-between;
 }
 
 .employee {
@@ -35,13 +38,15 @@
 
 .employee__photo {
     height: auto;
-    max-width: 1020px;
-    flex-wrap: wrap;
+    padding-left: 40px;
+} 
+
+.employee__photo-man {
+    padding-left: 20px;
 }
 
-
-.employee__photo:nth-child() {
-    margin: 0 10px;
+.employee__photo-girl {
+    padding-left: 0;
 }
 
 .employee__title {
@@ -53,6 +58,15 @@
     color: #666D89;
     padding-top: 17px;
     padding-bottom: 7px;
+    padding-left: 38px;
+}
+
+.employee__title-desmond {
+    padding-left: 20px;
+}
+
+.employee__title-scolara {
+    padding-left: 0;
 }
 
 .employee__discription {
@@ -63,7 +77,16 @@
     line-height: 22px;
     color: #767E9E;
     padding-bottom: 7px;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.4px;
+    padding-left: 37px;
+}
+
+.employee__discription-desmond {
+    padding-left: 21px;
+}
+
+.employee__discription-scolara {
+    padding-left: 0;
 }
 
 .visually-hidden {
@@ -78,10 +101,23 @@
     border: 0;
 }
 
+.social {
+    padding-left: 40px;
+    padding-top: 19px;
+}
+
+.social-desmond {
+    padding-left: 20px;
+}
+
+.social-scolara {
+    padding-left: 0;
+}
+
 .social__item {
     display: inline-block;
     margin-right: 8px;
-    padding-bottom: 70px;
+    padding-bottom:  65px;
 }
 
 .social__link {

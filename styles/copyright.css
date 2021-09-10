@@ -1,0 +1,40 @@
+.copyright {
+    background: #2D303A;
+    width: 100%;
+    height: 76px;
+}
+
+.copyright__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright_title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;align-items: center;
+    color: #666D89;
+    padding-top: 30px;
+    padding-left: 390px;
+}
+
+.copyright_pictures {
+    padding-top: 22px;
+    padding-right: 354px;
+}
+
+.copyright__facebook {
+    padding-right: 8px;
+}
+
+.copyright__ico-google {
+    padding-right: 8px;
+}
+
+.copyright__ico-twitter {
+    padding-right: 8px;
+}

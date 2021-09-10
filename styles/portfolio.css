@@ -4,7 +4,7 @@
 }
 
 .portfolio__wrapper {
-    padding: 0 30px;
+    padding: 0 30px 12px;
 }
 
 .portfolio__title {
@@ -14,8 +14,8 @@
     font-size: 30px;
     line-height: 36px;
     color: #666D89;
-    padding-top: 59px;
-    padding-bottom: 14px;
+    padding-top: 52px;
+    padding-bottom: 19px;
     padding-left: 10px;
 }
 

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./styles/service.css">
     <link rel="stylesheet" href="./styles/portfolio.css">
     <link rel="stylesheet" href="./styles/about-us.css">
+    <link rel="stylesheet" href="./styles/quote.css">
+    <link rel="stylesheet" href="./styles/copyright.css">
 </head>
 <body>
     <header class="header">
@@ -196,14 +198,14 @@
             </ul>
           </div>
           <div class="employee">
-            <img src="./img/about-us-img/photo-2.png" alt="photo-2" class="employee__photo">
-            <h3 class="employee__title">
+            <img src="./img/about-us-img/photo-2.png" alt="photo-2" class="employee__photo employee__photo-man">
+            <h3 class="employee__title employee__title-desmond">
               Desmond Miles
             </h3>
-            <p class="employee__discription">
+            <p class="employee__discription employee__discription-desmond">
               Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
             </p>
-            <ul class="social">
+            <ul class="social social-desmond">
               <li class="social__item">
                 <a href="#" class="social__link social__link_facebook">
                   <span class="visually-hidden">
@@ -235,14 +237,14 @@
             </ul>
           </div>
           <div class="employee">
-            <img src="./img/about-us-img/photo-3.png" alt="photo-3" class="employee__photo">
-            <h3 class="employee__title">
+            <img src="./img/about-us-img/photo-3.png" alt="photo-3" class="employee__photo employee__photo-girl">
+            <h3 class="employee__title employee__title-scolara">
               Scolara Visari
             </h3>
-            <p class="employee__discription">
+            <p class="employee__discription employee__discription-scolara">
               Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
             </p>
-            <ul class="social">
+            <ul class="social social-scolara">
               <li class="social__item">
                 <a href="#" class="social__link social__link_facebook">
                   <span class="visually-hidden">
@@ -276,5 +278,53 @@
         </div>
         </div>
       </section>
+      <section class="quote"> 
+       <div class="wrapper quote__wrapper">
+          <h2 class="quote__title">
+            Get a Quote
+          </h2>
+          <p class="quote__discription">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+          </p>
+          <div class="contact-form"> 
+            <form method="POST" class="form">
+              <input type="text" placeholder="Name (required)" class="form__field">
+              <input type="text" placeholder="Email (required)" class="form__field">
+              <input type="text" placeholder="Subject" class="form__field">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Describe your project in detail..." class="form__field"></textarea>
+              <button type="submit" class="form__button">
+                send
+              </button>
+            </form>
+            <div class="contact-form__info">
+              <h3 class="contact-form__title">
+                Contact Information
+              </h3>
+              <p class="contact-form__discription">
+                Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. 
+              </p>
+              <p class="contact-form__pictures contact-form__adress">
+                Elm St. 14/05 Lost City
+              </p>
+
+              <a href="" class="contact-form__pictures contact-form__number">03528 331 86 35 </a>
+
+              <a href="" class="contact-form__pictures contact-form__email">info@marvel.com</a>
+            </div>
+          </div> 
+      </section>
+      <footer class="copyright">
+        <div class="copyright__footer">
+          <h2 class="copyright_title">
+            © Copyright 2021
+          </h2>
+          <div class="copyright_pictures">
+            <img src="./img/copyright-img/ico-facebook.png" alt="ico-facebook" class="copyright__facebook">
+            <img src="./img/copyright-img/ico-google-plus.png" alt="ico-google-plus" class="copyright__ico-google">
+            <img src="./img/copyright-img/ico-twitter.png" alt="ico-twitter" class="copyright__ico-twitter">
+            <img src="./img/copyright-img/ico-linkedin.png" alt="ico-linkedin" class="copyright__ico-linkedin">
+          </div>  
+        </div>
+      </footer>
 </body>
 </html>
