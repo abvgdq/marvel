@@ -30,8 +30,8 @@ li {
     align-items: center;
     padding-left: 41px;
     padding-top: 31px;
-    padding-bottom: 27px;
-    padding-right: 38px;
+    padding-bottom: 28px;
+    padding-right: 36px;
 }
 
 .logo {
@@ -63,7 +63,7 @@ li {
     cursor: pointer;
     margin-right: 30px;
     position: relative;
-    margin-top: 9px;
+    margin-top: 0;
 }
 
 .active {
