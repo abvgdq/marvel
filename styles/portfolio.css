@@ -79,3 +79,16 @@
     cursor: pointer;
     min-width: 100px;
 }
+
+
+@media(max-width: 1019px) {
+    .portfolio__picture {
+        flex: 1 0 25%;
+    }
+}
+
+@media(max-width: 767px) {
+    .portfolio__picture {
+        flex: 1 0 30%;
+    }
+}

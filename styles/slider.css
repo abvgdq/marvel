@@ -4,27 +4,87 @@
     display: flex;
     justify-content: center;
     border-bottom: 6px solid #EA676B;
+    min-height: 600px;
 }
 
-.slider__phn-vertical {
-    padding-bottom: 57px;
-    padding-top: 54px;
-    padding-left: 56px;
-    padding-right: 73px;
+.slide {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.slider__phn-horizontal {
-    padding-top: 177px;
-    padding-bottom: 177px;
-    padding-right: 56px;
-}
-
-.slider__arw-left {
-    padding-bottom: 284px;
-    cursor: pointer;
+.sliders-img {
+    height: 594px;
 }
 
 .slider__arw-right {
     padding-bottom: 284px;
     cursor: pointer;
+}
+.phone-vertical {
+    width: 240px;
+    height: 483px;
+    position: relative;
+}
+
+.phone-horizontal {
+    width: 483px;
+    height: 240px;
+    position: relative;
+    margin-left: 7%; 
+}
+
+.phone-screen__vertical {
+    background: url('../img/slayder-img/Phone.png') no-repeat;
+    height: 95%;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.phone-screen__horizontal {
+    background: url('../img/slayder-img/phone-horizontal.png') no-repeat;
+    height: 90%;
+    width: 95%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.phone-vertical__display {
+    background: url('../img/slayder-img/phone-vertical-display.png') no-repeat;
+    height: 69%;
+    width: 79%;
+    position: absolute;
+    top: 65px;
+    left: 14px
+}
+
+.phone-vertical__shadow {
+    background: url('../img/slayder-img/phone-vertical-shadow.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.phone-horizontal__display {
+    background: url('../img/slayder-img/phone-horizontal-display.png') no-repeat;
+    height: 79%;
+    width: 69%;
+    position: absolute;
+    top: 14px;
+    left: 60px;
+}
+
+.phone-horizontal__shadow {
+    background: url('../img/slayder-img/phone-horizontal-shadow.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

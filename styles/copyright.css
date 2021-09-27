@@ -16,15 +16,14 @@
     font-weight: 900;
     font-size: 13px;
     line-height: 18px;
-    display: flex;align-items: center;
+    display: flex;
     color: #666D89;
     padding-top: 30px;
-    padding-left: 390px;
+    padding-left: 36px;
 }
 
 .copyright_pictures {
     padding-top: 22px;
-    padding-right: 354px;
 }
 
 .copyright__facebook {
@@ -37,4 +36,14 @@
 
 .copyright__ico-twitter {
     padding-right: 8px;
+}
+
+@media (max-width: 375px) {
+    .copyright_title {
+        display: none;
+    }
+
+    .copyright__footer {
+        justify-content: center;
+    }
 }
